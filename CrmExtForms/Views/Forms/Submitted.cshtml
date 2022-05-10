@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Thank you!";
+    Layout = "~/Views/Shared/_FormLayout.cshtml";
+}
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <div id="content" class="centered" style="text-align:center;font-size: 14.0pt; font-family: 'Tahoma',sans-serif; ">
+        <p><span style="color: #5876a3;">Thank you for your interest in Lethbridge College, we will be in contact with you shortly.</span></p>
+        <p><span style="color: #5876a3;">In the meantime, follow us on social media to see what we have been up to!</span></p>
+        <p>&nbsp;</p>
+        <p><a href="http://www.snapchat.com/add/lethcollege"><img src="https://lethbridgecollege.ca/externalapps/crm/images/snapchat_icon.png" alt="snapchat" /></a>&nbsp;&nbsp;<a href="https://twitter.com/LethCollege"><img src="https://lethbridgecollege.ca/externalapps/crm/images/twitter_icon.png" alt="twitter" /></a>&nbsp;&nbsp;<a href="https://www.instagram.com/lethcollege/?hl=en"><img src="https://lethbridgecollege.ca/externalapps/crm/images/instagram_icon.png" alt="instagram" /></a>&nbsp;&nbsp;<a href="https://www.facebook.com/LethbridgeCollege"><img src="https://lethbridgecollege.ca/externalapps/crm/images/facebook_icon.png" alt="facebook" /></a></p>
+        <p>&nbsp;</p>
+        <p><span style="color: #5876a3;">What happens next, matters most. </span><em><span style="color: #4472c4;">Be</span></em><em><span style="color: #5876a3;">&nbsp;</span></em><em><span style="color: #70ad47;">Ready</span></em><span style="color: #5876a3;">.</span></p>
+    </div>
+    
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/lc_rcr")
+}

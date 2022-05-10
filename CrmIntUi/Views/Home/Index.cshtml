@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>CRM Integration Solution</h1>
+    <p class="lead">Lethbridge College custom Colleague/CRM Integration solution</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Development</h2>
+        <p>
+            Run selected development scripts specified on CrmCoreLogic File
+        </p>
+        <p><a class="btn btn-default" href="/Home/RunDevelopment/">Run Development Scripts</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Integration</h2>
+        <p>Manually run full CRM integraiton scripts - will be scheduled</p>
+        <p><a class="btn btn-default" href="/Home/RunIntegration/">Run CRM Integration</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Test RCR</h2>
+        <p>Testing Shortform functionality</p>
+        <form action="/RCR/ShortForm/" method="post">
+            <input type="text" name="source" value="2" />
+            <input type="text" name="fname" value="Patrick" />
+            <input type="text" name="lname" value="Dudley" />
+            <input type="text" name="email" value="eurohl@msn.com" />
+            <input type="submit" name="Test Short Form" value="Button" id="RCRSF_btn" />
+        </form>
+        @*<p><a class="btn btn-default" href="/Home/SendEmailBroadcasts/">Send Email Broadcasts</a></p>*@
+    </div>
+</div>

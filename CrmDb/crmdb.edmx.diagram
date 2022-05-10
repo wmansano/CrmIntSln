@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8c697fba0905416e9a900685aa01bb71" Name="Diagram1" ZoomLevel="49">
+        <EntityTypeShape EntityType="CrmDb.crm_accounts" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_activities" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_activity_extender" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_affiliations" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_applications" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_assets" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_campaign_members" Width="1.5" PointX="8.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_campaigns" Width="1.5" PointX="8.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_cases" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_contacts" Width="1.5" PointX="10.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_course_connections" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_course_offerings" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_courses" Width="1.5" PointX="2.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_email_broadcasts" Width="1.5" PointX="4.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_email_campaigns" Width="1.5" PointX="12.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_email_messages" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_email_templates" Width="1.5" PointX="14.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_event_registrations" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_events" Width="1.5" PointX="16.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_inquiries" Width="1.5" PointX="6.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_leads" Width="1.5" PointX="16.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_po_course_codes" Width="1.5" PointX="12.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_program_enrollments" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_reports" Width="1.5" PointX="0.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_role_values" Width="1.5" PointX="2.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_scanner_registrations" Width="1.5" PointX="18.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_tasks" Width="1.5" PointX="18.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_terms" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.dynamic_content" Width="1.5" PointX="20.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.lcc2_barcodes" Width="1.5" PointX="12.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.merge_fields" Width="1.5" PointX="20.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.soql_queries" Width="1.5" PointX="20.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.transaction_errors" Width="1.5" PointX="20.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.transaction_loads" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.transaction_logs" Width="1.5" PointX="22.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wt_addresses" Width="1.5" PointX="22.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wt_applicants" Width="1.5" PointX="22.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wt_application_statuses" Width="1.5" PointX="22.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wt_applications" Width="1.5" PointX="22.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wt_core_students" Width="1.5" PointX="2.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wt_course_departments" Width="1.5" PointX="8.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wt_course_sections" Width="1.5" PointX="10.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wt_courses" Width="1.5" PointX="12.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wt_departments" Width="1.5" PointX="18.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wt_divisions" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wt_institutions" Width="1.5" PointX="24.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wt_off_email_restore" Width="1.5" PointX="24.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wt_program_enrollments" Width="1.5" PointX="24.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wt_programs" Width="1.5" PointX="24.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wt_student_course_sections" Width="1.5" PointX="4.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wt_student_courses" Width="1.5" PointX="14.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wt_student_credentials" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wt_student_programs" Width="1.5" PointX="26.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wt_student_terms" Width="1.5" PointX="6.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wt_terms" Width="1.5" PointX="26.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.sv_core_student_duplicates" Width="1.5" PointX="26.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_applicants" Width="1.5" PointX="26.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_application_statuses" Width="1.5" PointX="26.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_applications" Width="1.5" PointX="26.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_colleague_persons" Width="1.5" PointX="28.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_core_student_personal" Width="1.5" PointX="28.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_core_student_restrictions" Width="1.5" PointX="28.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_core_student_statuses" Width="1.5" PointX="28.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_core_student_terms" Width="1.5" PointX="16.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_course_connections" Width="1.5" PointX="28.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_course_departments" Width="1.5" PointX="18.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_course_sections" Width="1.5" PointX="20.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_courses" Width="1.5" PointX="22.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_divisions" Width="1.5" PointX="28.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_institutions" Width="1.5" PointX="28.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_name_history" Width="1.5" PointX="30.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_persons" Width="1.5" PointX="30.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_program_enrollments" Width="1.5" PointX="4.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_programs" Width="1.5" PointX="6.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_schools" Width="1.5" PointX="30.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_student_applications" Width="1.5" PointX="30.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_student_course_sections" Width="1.5" PointX="30.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_student_programs" Width="1.5" PointX="14.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_student_terms" Width="1.5" PointX="16.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.wv_terms" Width="1.5" PointX="28.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrmDb.crm_form_submissions" Width="2.75" PointX="25.375" PointY="32.75" />
+        <EntityTypeShape EntityType="CrmDb.crm_dynamic_content" Width="3.375" PointX="33.375" PointY="0.75" />
+        <EntityTypeShape EntityType="CrmDb.crm_cookie_history" Width="2.375" PointX="31.375" PointY="31.75" />
+        <EntityTypeShape EntityType="CrmDb.crm_settings" Width="2.625" PointX="0.75" PointY="33.75" />
+        <EntityTypeShape EntityType="CrmDb.crm_inquiry_programs" Width="2.75" PointX="33.375" PointY="6.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
